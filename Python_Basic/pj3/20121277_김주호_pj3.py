@@ -1,6 +1,7 @@
 from urllib.request import *
 from bs4 import *
 import matplotlib.pyplot as plt
+from collections import deque
 
 
 def get_PN(DN):
@@ -48,10 +49,10 @@ def makeMA():
         MA_list = []
         p = pList[0]
         mSum = p * scale
-        que = [p for _ in range(scale)]
+        que = deque([p for _ in range(scale)])
 
         for price in pList:
-            mSum -= que.pop(0)
+            mSum -= que.popleft()
             mSum += price
             MA_list.append(mSum / scale)
             que.append(price)
