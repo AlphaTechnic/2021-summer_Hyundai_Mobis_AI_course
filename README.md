@@ -32,6 +32,24 @@
 | 10일차               | - 실제 도로 및 손글씨에서 인공지능 테스트 영상 촬영          |
 | 11일차               | - 최종 결과 PPT 발표<br />- 우수 학생 수상                   |
 
+
+
+## Day 1 ~ Day 3 : Python basic
+
+### day 3 - Crawling and Plot 
+
+![day3](./img/pj3_result.jpg)
+
+### day 4 - Object Detection with Jetson Nano
+
+- 마스크를 착용하였음에도 높은 확률로 person이라고 detection
+
+![day3](./img/day4_res1.jpg)
+
+- labtop 인식
+
+![day3](./img/day4_res2.jpg)
+
 # Evaluation
 
 - 20가지 교통표지판 인식
@@ -63,3 +81,6 @@
 - 5자리 손글씨 숫자 인식
 
   강사가 미리 작성해둔 5자리 손글씨 숫자 20세트를 카메라 앞에 두었을 때, 시스템은 숫자를 맞춰야함.
+
+
+
