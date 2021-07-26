@@ -52,9 +52,9 @@
 
 ### day 5 - transfer learning
 
-![day3](./img/day5_res.jpg)
+- Apple 만을 학습한 AI
 
-Apple 만을 학습한 AI
+![day3](./img/day5_res.jpg)
 
 # Evaluation
 
