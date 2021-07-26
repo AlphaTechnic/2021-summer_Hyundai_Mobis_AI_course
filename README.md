@@ -50,6 +50,12 @@
 
 ![day3](./img/day4_res2.jpg)
 
+### day 5 - transfer learning
+
+![day3](./img/day5_res.jpg)
+
+Apple 만을 학습한 AI
+
 # Evaluation
 
 - 20가지 교통표지판 인식
